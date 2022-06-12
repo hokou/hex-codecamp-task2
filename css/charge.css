@@ -247,7 +247,7 @@ sub {
   }
   
   .charge-content {
-    width: 335px;
+    max-width: 335px;
     height: 515px;
     padding: 16px 0 24px;
     margin: 0 auto 24px;
@@ -260,12 +260,12 @@ sub {
   }
   
   .charge-calculate {
-    width: 303px;
+    max-width: 303px;
     margin: 24px auto 27px;
   }
   
   .charge-box {
-    width: 139px;
+    max-width: 139px;
     padding: 16px 0;
   }
   
