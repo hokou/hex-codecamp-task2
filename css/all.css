@@ -56,6 +56,12 @@ button {
   z-index: 100;
 }
 
+.btn-top:hover {
+  background-color: white;
+  color: #56C4C5;
+  border: 1px solid #56C4C5;
+}
+
 header {
   justify-content: space-between;
   align-items: center;

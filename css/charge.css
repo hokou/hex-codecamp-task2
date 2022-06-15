@@ -167,7 +167,6 @@
 .user-number span {
   color: #56C4C5;
 	font-size: 32px;
-	font-weight: bold;
 }
 
 sub {
@@ -176,9 +175,12 @@ sub {
   vertical-align: baseline;
 }
 
-.cost-number span {
+.user-number sub {
+  color: #56C4C5;
+}
+
+.cost-number1,.cost-number2 span {
 	font-size: 32px;
-	font-weight: bold;
 }
 
 .charge-info p {
@@ -276,12 +278,10 @@ sub {
   
   .user-number span {
     font-size: 28px;
-    font-weight: normal;
   }
   
-  .cost-number span {
+  .cost-number1,.cost-number2 span {
     font-size: 28px;
-    font-weight: normal;
   }
   
   .charge-info {
